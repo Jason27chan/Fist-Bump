@@ -9,8 +9,6 @@ $(function() {
 function postInfo() {
 	var text = $("#postButton").text();
 	var info1 = $("#input-info").val();
-	console.log(info1);
-	console.log(text)
 	$.post("database.php", {info:info1}, function(data) {
 		console.log(data + "\nfinished");
 	});

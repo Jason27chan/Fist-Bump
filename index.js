@@ -1,7 +1,10 @@
 // const { createElement } = React
 // const { render } = ReactDOM
 // import { App } from './App.js'
-import { InformationList } from './InformationList'
+import React from 'react'
+import { InformationList } from '.components/InformationList'
+
+window.React = React
 
 
 ReactDOM.render(
