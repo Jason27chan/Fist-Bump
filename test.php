@@ -1,4 +1,4 @@
 <?php
-echo "hello world";
+echo "date: ".date("F j, Y");
 exit;
 ?>

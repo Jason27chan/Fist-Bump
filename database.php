@@ -6,7 +6,9 @@
 	    die('Could not connect: ' . mysqli_error($con));
 	}
 	# $sql = "INSERT INTO test1 (info) VALUES (\"{$ftype}\", \"{$fsamp}\", \"{$fcutoff}\", \"{$order}\", \"{$window}\", \"{$tab}\")";
-	$sql = "INSERT INTO test1 (information) VALUES (\"{$data}\");";
+	$date_added = date("F j, Y");
+
+	$sql = "INSERT INTO test1 (information, date_added) VALUES (\"{$data}\", \"{$date_added}\");";
 
 	if ($con->query($sql) === TRUE) {
 	    echo "New record created successfully ";

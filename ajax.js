@@ -12,7 +12,7 @@ function postInfo() {
 	console.log(info1);
 	console.log(text)
 	$.post("database.php", {info:info1}, function(data) {
-		console.log(data + "finished 1111111");
+		console.log(data + "\nfinished");
 	});
 }
 
