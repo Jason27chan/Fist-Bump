@@ -1,14 +1,11 @@
-// const { createElement } = React
-// const { render } = ReactDOM
-// import { App } from './App.js'
-// import React from 'react'
-// import { App } from '.components/InformationList'
+import React from 'react'
+import { render } from 'react-DOM'
+import { hello, goodbye } from './lib'
 
-// window.React = React
-
-
-ReactDOM.render(
-	// <App />,
-	<h1> Hello World</h1>,
+render(
+	<div> 
+		{hello}
+		{goodbye}
+	</div>,
 	document.getElementById('information-container')
 )
