@@ -9,6 +9,6 @@
 
 ReactDOM.render(
 	// <App />,
-	<h1> Hello Worl</h1>,
+	<h1> Hello World</h1>,
 	document.getElementById('information-container')
 )
