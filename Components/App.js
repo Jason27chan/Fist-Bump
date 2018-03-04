@@ -28,7 +28,7 @@ export const App = createClass({
 	render() {
 		return (
 			<div className="app">
-				{this.state.allSkiDays[0]["resort"]}
+				<p>Hello World</p>
 			</div>
 		)
 	}

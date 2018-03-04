@@ -2,12 +2,13 @@
 // const { render } = ReactDOM
 // import { App } from './App.js'
 import React from 'react'
-import { InformationList } from '.components/InformationList'
+// import { App } from '.components/InformationList'
 
-window.React = React
+// window.React = React
 
 
 ReactDOM.render(
-	<App />,
+	// <App />,
+	<h1> Hello Worl</h1>,
 	document.getElementById('information-container')
 )
