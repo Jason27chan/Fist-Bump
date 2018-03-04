@@ -1,7 +1,7 @@
 // const { createElement } = React
 // const { render } = ReactDOM
 // import { App } from './App.js'
-import React from 'react'
+// import React from 'react'
 // import { App } from '.components/InformationList'
 
 // window.React = React
